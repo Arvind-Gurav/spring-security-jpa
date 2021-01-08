@@ -8,7 +8,7 @@ public class HomeResource {
 
     @GetMapping("/")
     public String home() {
-        return "Welcome Home";
+        return "Welcome Home Github";
     }
 
     @GetMapping("/user")
