@@ -13,7 +13,7 @@ public class HomeResource {
 
     @GetMapping("/user")
     public String user() {
-        return "Welcome User";
+        return "Welcome Github User";
     }
 
     @GetMapping("/admin")
